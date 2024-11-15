@@ -4,14 +4,12 @@ import { ProductPrice } from "../../dynamics/product-price";
 
 interface ProductDescriptionProps {
   title: string;
-  price: number;
   description: string;
   features: string[];
 }
 
 export const ProductDescription = ({
   title = "Louis Vuitton Imagination",
-  price = 265.0,
   description = "A fresh and powerful citrus scent that embodies elegant masculinity. Imagination opens with rare Chinese black tea and Italian citrus, followed by Tunisian neroli, Nigerian ginger, and Ambrox for a sophisticated and long-lasting fragrance experience.",
   features = [
     "Top notes: Chinese black tea, Italian citrus",
